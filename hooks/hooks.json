@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptExpansion": [
+      {
+        "matcher": "code",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/open_vscode.zsh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

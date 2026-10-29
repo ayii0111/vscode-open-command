@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/open_vscode.zsh",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}\"/hooks/open-vscode.sh",
             "timeout": 10
           }
         ]

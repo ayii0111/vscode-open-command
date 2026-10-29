@@ -1,5 +1,8 @@
 {
   "name": "vscode-open-command",
-  "version": "0.1.0",
-  "description": "/code 一鍵用 VS Code 開啟當前專案目錄，全程在本機執行、不呼叫模型"
+  "description": "/code opens the current Claude Code session directory in VS Code, locally, without calling the model.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ayii"
+  }
 }

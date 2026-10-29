@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vscode-open-command",
+  "description": "A Claude Code plugin that opens the current directory in VS Code with /code, without calling the model.",
+  "owner": {
+    "name": "ayii"
+  },
+  "plugins": [
+    {
+      "name": "vscode-open-command",
+      "description": "Open the current session directory in VS Code with /code, without calling the model.",
+      "author": {
+        "name": "ayii"
+      },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}
